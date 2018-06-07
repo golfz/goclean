@@ -1,1 +1,1 @@
-# learn-golang-clean-architecture
+# เขียน Golang แบบ Clean Architecture
