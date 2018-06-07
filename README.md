@@ -1,4 +1,7 @@
 # เขียน Golang แบบ Clean Architecture
+โปรเจคนี้เกิดจากการอ่านหนังสือ [Clean Architecture](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164) ของลุงบ็อบ(Robert C. Martin) แล้วยังงงๆ เลยมาลองหาทาง implement ให้ออกมาเป็นโค้ดจริงๆ (เขียนด้วย go)
+
+โปรเจคนี้เป็นการ implement ตามความเข้าใจของผมนะ ซึ่งอาจจะไม่ถูกต้องก็ได้ หากใครนำไปใช้ก็สามารถนำไปปรับได้ตามความเหมาะสมนะครับ
 
 ## TODO
 - [x] GET
@@ -12,7 +15,7 @@
 ```bash
 go run main.go
 ```
-โดยที่ Service ของเราจะรอรับ Request ที่พอร์ต 8081
+โดยที่ Service จะรอรับ Request ที่พอร์ต 8081
 จะทดสอบส่ง request ด้วย Browser หรือจะใช้ [Postman](https://www.getpostman.com) ก็ได้เช่นกัน
 
 
