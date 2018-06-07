@@ -1,7 +1,22 @@
 # เขียน Golang แบบ Clean Architecture
 โปรเจคนี้เกิดจากการอ่านหนังสือ [Clean Architecture](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164) ของลุงบ็อบ(Robert C. Martin) แล้วยังงงๆ เลยมาลองหาทาง implement ให้ออกมาเป็นโค้ดจริงๆ (เขียนด้วย go)
 
-โปรเจคนี้เป็นการ implement ตามความเข้าใจของผมนะครับ ซึ่งอาจจะไม่ถูกต้องก็ได้ หากใครนำไปใช้ก็สามารถนำไปปรับได้ตามความเหมาะสมครับ
+ผมพยายาม implement โดยให้เป็นไปตาม 4 รูปนี้ครับ
+
+![clean architecture 1](https://raw.githubusercontent.com/golfz/goclean/master/clean-01.jpg)
+
+
+![clean architecture 1](https://raw.githubusercontent.com/golfz/goclean/master/clean-02.png)
+
+
+![clean architecture 1](https://raw.githubusercontent.com/golfz/goclean/master/clean-03.png)
+
+
+![clean architecture 1](https://raw.githubusercontent.com/golfz/goclean/master/clean-03.png)
+
+
+> โปรเจคนี้เป็นการ implement ตามความเข้าใจของผมนะครับ ซึ่งอาจจะไม่ถูกต้องก็ได้ (ซึ่งผมเองก็ยังไม่ค่อยมั่นใจเหมือนกันครับ) หากใครนำไปใช้ก็สามารถนำไปปรับได้ตามความเหมาะสมครับ
+
 
 ## TODO
 - [x] GET
