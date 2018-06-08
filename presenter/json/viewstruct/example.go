@@ -5,7 +5,7 @@ type Example struct {
 	Name        string `json:"name"`
 	Color       string `json:"color"`
 	Remain      uint16 `json:"remain"`
-	CreatedDate string `json:"created-date"`
+	CreatedDate string `json:"created_date"`
 	Url         string `json:"url"`
 	Rel         string `json:"rel"`
 }
