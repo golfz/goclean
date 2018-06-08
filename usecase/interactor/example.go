@@ -31,7 +31,7 @@ func (uc *exampleUseCase) GetExampleData(data input.Example) {
 
 	uc.pSuccess.PresentExampleResult(
 		output.HttpHeader{
-			StatusCode: http.StatusCreated,
+			StatusCode: http.StatusOK,
 		},
 		responseBody,
 	)
